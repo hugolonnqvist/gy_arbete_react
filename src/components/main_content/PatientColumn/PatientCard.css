@@ -1,0 +1,11 @@
+.patientCard {
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+}
+
+.patientQuestion {
+    margin-left: 1vw;
+    color: #dddddd86;
+}

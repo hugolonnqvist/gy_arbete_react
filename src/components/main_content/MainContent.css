@@ -1,0 +1,87 @@
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.generalInfo {
+    display: grid;
+    grid-template-rows: 40% 28% 28%;
+    width: 61vw;
+    background-color: black;
+}
+
+.firstRow, .secondRow, .thirdRow {
+    width: 100%;
+    background-color: #20272B;
+}
+
+.firstRow {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background-color: black;
+}
+
+.patientsActivity, .stats {
+    background-color: #20272B;
+    border-radius: 4px;
+}
+
+.patientsActivity {
+    margin: 2vh 0.5vw 1vh 1vw;
+    border-radius: 4px;
+}
+
+.stats {
+    margin: 2vh 0.5vw 1vh 0.5vw;
+}
+
+.secondRow {
+    width: 60vw;
+    margin: 1vh 0.5vw 1vh 1vw;
+}
+
+.thirdRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: black;
+}
+
+.covidInfo, .genderDistribution, .ageDistribution {
+    background-color: #20272B;
+    border-radius: 4px;
+}
+
+.covidInfo {
+    margin: 1vh 0.5vw 1vh 1vw;
+}
+
+.genderDistribution {
+    margin: 1vh 0.5vw 1vh 0.5vw;
+}
+
+.ageDistribution {
+    margin: 1vh 0.5vw 1vh 0.5vw;
+}
+
+.leftColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.patientsInfo {
+    width: 21vw;
+    height: 60%;
+    margin: 2vh 1vw 0.1vh 0.5vw;
+    border-radius: 4px;
+    background-color: #20272B;
+}
+
+.calender {
+    width: 21vw;
+    height: 32.5%;
+    margin: 0.1vh 1vw 2vh 0.5vw;
+    border-radius: 4px;
+    background-color: #20272B;
+}

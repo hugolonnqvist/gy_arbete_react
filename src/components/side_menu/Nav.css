@@ -1,0 +1,14 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.firstNav, .secondNav {
+    display: flex;
+    flex-direction: column;
+}
+
+.secondNav {
+    margin-bottom: 2vh;
+}

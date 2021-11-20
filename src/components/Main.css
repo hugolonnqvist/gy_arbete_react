@@ -1,0 +1,5 @@
+.main {
+    display: grid;
+    grid-template-columns: 16vw 1fr;
+    height: 90vh;
+}

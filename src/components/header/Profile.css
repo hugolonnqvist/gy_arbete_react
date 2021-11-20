@@ -1,0 +1,30 @@
+.profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10vw
+}
+
+.profileImg {
+    width: 44px;
+    height: 44px;
+}
+
+.profileInfo {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2vw;
+}
+
+.profileName {
+    font-size: 16px;
+    margin: 0px;
+    padding: 2px;
+}
+
+.school {
+    font-size: 12px;
+    color: #dddddd86;
+    margin: 0px;
+    padding: 2px;
+}
