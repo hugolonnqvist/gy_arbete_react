@@ -1,6 +1,7 @@
 .patientHeadline {
     font-size: 1.2rem;
-    margin: 1vh 0px 0px 1vw
+    font-weight: bold;
+    margin: 1vh 0px 0px 1vw;
 }
 
 .patientImgCont {

@@ -1,0 +1,14 @@
+.calendarBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 8px;
+    width: 2.7vw;
+    margin: 4px;
+}
+
+.calendarDay, .calendarDate{
+    height: 1vh;
+}

@@ -1,0 +1,8 @@
+.appointmentBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 4.5vw;
+  margin: 4px;
+}
