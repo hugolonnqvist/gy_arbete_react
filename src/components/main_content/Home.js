@@ -1,11 +1,10 @@
-import "./MainContent.css";
+import "./Home.css";
 import Patients from "./PatientColumn/paitentInformation/Patients";
-import Calendar from "./PatientColumn/appointments/Appointments";
-import Appointments from "./PatientColumn/appointments/Appointments";
+import Appointments from "./PatientColumn/paitentInformation/appointments/Appointments";
 
 function MainContent() {
   return (
-    <main className="mainContainer">
+    <div className="mainContainer">
       <div className="generalInfo">
         <div className="firstRow">
           <div className="patientsActivity"></div>
@@ -22,7 +21,7 @@ function MainContent() {
         <Patients className="patientsInfo"></Patients>
         <Appointments className="appointments"></Appointments>
       </div>
-    </main>
+    </div>
   );
 }
 

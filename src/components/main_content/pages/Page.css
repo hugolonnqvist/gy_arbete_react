@@ -1,0 +1,16 @@
+.page {
+    background-color: black;
+    color: white;
+}
+
+.pageBox {
+    margin: 1vh 1vw 1vh 1vw;
+    width: 98%;
+    height: 96%;
+    border-radius: 8px;
+    background-color: #20272B;
+}
+
+.pageBox>p {
+    font-size: 1rem;
+}

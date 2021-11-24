@@ -6,3 +6,11 @@
   width: 4.5vw;
   margin: 4px;
 }
+
+.appointmentBox>img {
+  width: 4vw;
+}
+
+.appointmentBox>p {
+  margin: 0px;
+}

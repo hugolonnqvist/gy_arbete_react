@@ -9,7 +9,7 @@ function Patients(props) {
         <div className="patientImgCont">
           <img
             className="patientAvatar"
-            src="patientAvatar.png"
+            src="../images/patientAvatar.png"
             alt="Patient img"
           ></img>
         </div>

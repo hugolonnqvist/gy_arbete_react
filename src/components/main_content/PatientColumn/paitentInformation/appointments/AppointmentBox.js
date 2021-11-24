@@ -3,7 +3,7 @@ import "./AppointmentBox.css";
 function AppointmentBox(props) {
   return (
     <div className="appointmentBox">
-      <img src={props.image} alt="patient image"></img>
+      <img src={props.src} alt="patient"></img>
       <p>{props.name}</p>
     </div>
   );

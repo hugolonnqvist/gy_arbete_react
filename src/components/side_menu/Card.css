@@ -8,7 +8,7 @@
     padding: 0 2vw 0 2vw;
 }
 
-.card:active {
+.card:focus {
     background-color: #026DFA;
     border-radius: 8px;
 }

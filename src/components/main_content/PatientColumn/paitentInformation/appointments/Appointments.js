@@ -16,10 +16,22 @@ function Appointments(props) {
       </div>
       <p className="appointmentTitle">Previous Appointments</p>
       <div className="contFlexRow">
-        <AppointmentBox name="Joe"></AppointmentBox>
-        <AppointmentBox name="Nick"></AppointmentBox>
-        <AppointmentBox name="Rick"></AppointmentBox>
-        <AppointmentBox name="Morty"></AppointmentBox>
+        <AppointmentBox
+          src="../images/patient1.png"
+          name="Joe"
+        ></AppointmentBox>
+        <AppointmentBox
+          src="../images/patient2.png"
+          name="Nick"
+        ></AppointmentBox>
+        <AppointmentBox
+          src="../images/patient3.png"
+          name="Rick"
+        ></AppointmentBox>
+        <AppointmentBox
+          src="../images/patient4.png"
+          name="Morty"
+        ></AppointmentBox>
       </div>
     </div>
   );
